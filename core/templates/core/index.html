@@ -1,0 +1,59 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Hero Image Section -->
+    <div class="hero-image">
+        <div class="hero-overlay">
+            <h1>Desert Drone Photography</h1>
+        </div>
+    </div>
+
+<!-- Video Showcase Section DroneCinematic-->
+    <div class="container">
+        <h2 style="text-align:center; margin: 3rem 0 2rem;">Featured Videos</h2>
+
+        <div class="video-grid">
+
+            <!-- Row 1: Text Left | Video Right -->
+            <div class="video-row">
+                <div class="text-box">
+                    <h3>Real Estate Photography</h3>
+                </div>
+                <div class="video-box">
+                    <video autoplay loop muted playsinline>
+                        <source src="https://pub-6df6a1656be8480d84c422b414012517.r2.dev/HousePanShots.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Row 2: Video Left | Text Right -->
+            <div class="video-row">
+                <div class="video-box">
+                    <video autoplay loop muted playsinline>
+                        <source src="https://pub-6df6a1656be8480d84c422b414012517.r2.dev/DroneCinematic.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="text-box">
+                    <h3>Cinematic Shots</h3>
+                </div>
+            </div>
+
+            <!-- Row 3: Text Left | Video Right -->
+            <div class="video-row">
+                <div class="text-box">
+                    <h3>Large Land Surveys</h3>
+                </div>
+                <div class="video-box">
+                    <video autoplay loop muted playsinline>
+                        <source src="https://pub-6df6a1656be8480d84c422b414012517.r2.dev/LandSurveyLoop.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
