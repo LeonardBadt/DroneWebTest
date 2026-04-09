@@ -34,11 +34,12 @@ INSTALLED_APPS = [
     #removing preinstalled apps that rely on a database
     #'django.contrib.admin',
     #'django.contrib.auth',
-    #'django.contrib.contenttypes',
+    #
     #'django.contrib.sessions',
     #'django.contrib.messages',
     
-    
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
     'django.contrib.staticfiles',
     'django_distill',
     'core'
