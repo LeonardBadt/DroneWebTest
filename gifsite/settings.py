@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-nr5+f3ysfr)=n#m7qf%9(mm=^mq35@(-m#&_8%+9(7n76e6za6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ '*' ]
 
 
 # Application definition
@@ -113,9 +113,7 @@ USE_I18N = True
 USE_TZ = True
 
 
-MEDIA_URL = 'media/'
 #With Django 3.1, we no longer need Path(BASE_DIR, 'media')!!!!!
-MEDIA_ROOT = BASE_DIR / 'media'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
