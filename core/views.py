@@ -5,4 +5,4 @@ from .models import Gif
 
 def home(request):
     gifs = Gif.objects.all()
-    return render(request, 'core/index.html', {'gifs': gifs})
+    return render(request, 'core/home.html', {'gifs': gifs})

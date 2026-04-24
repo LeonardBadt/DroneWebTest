@@ -1,5 +1,5 @@
 /VideoEditingFiles/
-/static/
-/static_cdn/
 /media/
 /public/
+__pycache__/
+*.pyc
